@@ -109,7 +109,13 @@ label{
     height: 40px;
     width: 180px;
     box-shadow: 3px 3px 5px #E5E7EB;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
 
+.btn-green:hover {
+    box-shadow: 5px 5px 10px #E5E7EB;
+    border-color: #4a5b3e;
 }
 
 .third{
